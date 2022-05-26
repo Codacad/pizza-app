@@ -1,2 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&family=Space+Mono:wght@700&display=swap");
-/*# sourceMappingURL=app.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@300&family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&family=Space+Mono:wght@700&display=swap");
+:root {
+  --heading-font:font-family: "Poppins", sans-serif;
+  --text-font-one:font-family: "Space Mono", monospace;
+  --text-font-two:family: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

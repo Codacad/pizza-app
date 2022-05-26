@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "sass-watch":"sass --no-source-map --watch public/css/app.scss public/css/app.css"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,8 @@
     "express": "^4.18.1",
     "express-ejs-layouts": "^2.5.1",
     "mongoose": "^6.3.4",
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "sass": "^1.52.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"

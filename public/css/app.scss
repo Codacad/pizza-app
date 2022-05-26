@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@300&family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&family=Space+Mono:wght@700&display=swap');
 
+ $darkred:rgb(200,0,0);
 :root{
     --heading-font:font-family: 'Poppins', sans-serif;
-    --tex-font:font-family: 'Space Mono', monospace;
+    --text-font-one:font-family: 'Space Mono', monospace;
+    --text-font-two:family: 'Lato', sans-serif;
 }
 
 *{
@@ -12,5 +14,5 @@
 }
 
 body{
-    background-color: #303841;
+    // background-color: #333;
 }
