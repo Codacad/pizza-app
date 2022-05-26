@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&family=Space+Mono:wght@700&display=swap');
+
+:root{
+    --heading-font:font-family: 'Poppins', sans-serif;
+    --tex-font:font-family: 'Space Mono', monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #303841;
+}
